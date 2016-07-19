@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "move-moz",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/link-48.png"
+  },
+
+  "permissions": ["tabs"],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "moz-move"
+  }
+
+}
